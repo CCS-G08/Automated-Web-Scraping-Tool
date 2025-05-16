@@ -1,0 +1,64 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <h2 class="mb-4 text-center">🔍 Vulnerability Scanner Dashboard</h2>
+
+    <div class="d-flex justify-content-center mb-4">
+        <!-- Run Web Crawler Button -->
+        <form id="webcrawler-form" action="{{ url_for('run_webcrawler') }}" method="post" style="display:inline;">
+            <button type="submit" class="btn btn-warning me-2" id="webcrawler-btn">
+                <span id="webcrawler-spinner" class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                Run Web Crawler
+            </button>
+        </form>
+
+        <!-- Run Scraper Button -->
+        <form id="scraper-form" action="{{ url_for('run_scraper') }}" method="post" style="display:inline;">
+            <button type="submit" class="btn btn-info" id="scraper-btn">
+                <span id="scraper-spinner" class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                Run Scraper
+            </button>
+        </form>
+    </div>
+
+    <div class="row">
+        <!-- Scanned Links Card -->
+        <div class="col-md-6 mb-3">
+            <div class="card border-primary shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Total Links Scanned</h5>
+                    <p class="card-text">{{ scanned_count }} links scanned</p>
+                    <a href="{{ url_for('show_vuln_links') }}" class="btn btn-outline-primary btn-sm">View Links</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vulnerable Links Card -->
+        <div class="col-md-6 mb-3">
+            <div class="card border-danger shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title text-danger">Vulnerable Links Found</h5>
+                    <p class="card-text">{{ vuln_count }} vulnerable links</p>
+                    <a href="{{ url_for('show_vuln_links') }}" class="btn btn-outline-danger btn-sm">View Vulnerable Links</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript to show loading spinner -->
+    <script>
+        document.getElementById('webcrawler-form').addEventListener('submit', function () {
+            const btn = document.getElementById('webcrawler-btn');
+            const spinner = document.getElementById('webcrawler-spinner');
+            spinner.classList.remove('d-none');
+            btn.disabled = true;
+        });
+
+        document.getElementById('scraper-form').addEventListener('submit', function () {
+            const btn = document.getElementById('scraper-btn');
+            const spinner = document.getElementById('scraper-spinner');
+            spinner.classList.remove('d-none');
+            btn.disabled = true;
+        });
+    </script>
+{% endblock %}

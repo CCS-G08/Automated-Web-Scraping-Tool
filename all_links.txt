@@ -1,0 +1,5 @@
+https://sec.cloudapps.cisco.com/security/center/publicationListing.x
+https://security.paloaltonetworks.com/
+https://advisory.splunk.com/
+https://support.hp.com/us-en/security-bulletins
+https://www.ibm.com/support/pages/bulletin/

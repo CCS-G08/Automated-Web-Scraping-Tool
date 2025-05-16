@@ -1,0 +1,16 @@
+<!-- show_vuln_links.html -->
+{% extends "layout.html" %}
+{% block content %}
+  <h1 class="mb-4">Scanned Vulnerability Links</h1>
+
+  <ul class="list-group">
+    {% for link in vuln_links %}
+      <li class="list-group-item">{{ link }}</li>
+    {% else %}
+      <li class="list-group-item">No links found</li>
+    {% endfor %}
+  </ul>
+
+  <a href="{{ url_for('index') }}" class="btn btn-primary mt-3">🔙 Back to Dashboard</a>
+  <a href="{{ url_for('high_severity_links') }}" class="btn btn-danger mt-3 ms-2">⚠️ High Severity Links</a>
+{% endblock %}

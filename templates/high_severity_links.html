@@ -1,0 +1,24 @@
+<!-- high_severity_links.html -->
+{% extends "layout.html" %}
+{% block content %}
+  <h1 class="mb-4 text-danger">High Severity Vulnerabilities</h1>
+
+  {% if high_links %}
+    <ul class="list-group">
+      {% for entry in high_links %}
+        <li class="list-group-item">
+          <pre>{{ entry }}</pre>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <!-- Email button -->
+    <a href="{{ url_for('send_high_severity_email') }}" class="btn btn-warning mt-3">
+      ✉️ Notify via Email
+    </a>
+  {% else %}
+    <p>No high severity vulnerabilities found.</p>
+  {% endif %}
+
+  <a href="{{ url_for('show_vuln_links') }}" class="btn btn-secondary mt-3">🔙 Back to All Links</a>
+{% endblock %}

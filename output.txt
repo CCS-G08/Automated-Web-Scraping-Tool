@@ -1,0 +1,171 @@
+URL: https://www.cve.org/CVERecord?id=CVE-2023-4218
+OEM Name: www.cve
+Product Name: CVE Record: CVE-2023-4218
+CVE: CVE-2024-1234
+CVSS/Severity: low
+Published Date: Published: 2023-11-09
+
+--------------------------------------------------
+
+URL: https://www.cve.org/CVERecord?id=CVE-2024-1681
+OEM Name: www.cve
+Product Name: CVE Record: CVE-2024-1681
+CVE: CVE-2024-1234
+CVSS/Severity: low
+Published Date: Published: 2024-04-19
+
+--------------------------------------------------
+
+URL: https://www.ibm.com/support/pages/node/7232477
+OEM Name: www.ibm
+Product Name: Security Bulletin: IBM Maximo Application Suite - Monitor Component is vulnerable to a possible denial-of- service for Python-idna CVE-2024-3651
+CVE: CVE-2024-3651
+CVSS/Severity: low
+Published Date: 05 May 2025
+
+--------------------------------------------------
+
+URL: https://www.ibm.com/support/pages/node/7232440
+OEM Name: www.ibm
+Product Name: Security Bulletin: Vulnerability in Flask-Cors affects IBM Cloud Pak for Data System 1.0(CPDS 1.0)[CVE-2020-25032]
+CVE: CVE-2020-25032
+CVSS/Severity: low
+Published Date: 03 May 2025
+
+--------------------------------------------------
+
+URL: https://www.cve.org/CVERecord?id=CVE-2021-33503
+OEM Name: www.cve
+Product Name: CVE Record: CVE-2021-33503
+CVE: CVE-2024-1234
+Published Date: Published: 2021-06-29
+
+--------------------------------------------------
+
+URL: https://www.cve.org/CVERecord?id=CVE-2025-27363
+OEM Name: www.cve
+Product Name: CVE Record: CVE-2025-27363
+CVE: CVE-2024-1234
+CVSS/Severity: low
+Published Date: Published: 2025-03-11
+
+--------------------------------------------------
+
+URL: https://www.ibm.com/support/pages/node/7232439
+OEM Name: www.ibm
+Product Name: Security Bulletin: Vulnerability in urllib3 affects IBM Cloud Pak for Data System 1.0(CPDS 1.0)[CVE-2020-26137, CVE-2020-7212, CVE-2021-33503]
+CVE: CVE-2020-26137
+CVSS/Severity: CVSS:3.0
+Published Date: 03 May 2025
+
+--------------------------------------------------
+
+URL: https://www.cve.org/CVERecord?id=CVE-2020-7212
+OEM Name: www.cve
+Product Name: CVE Record: CVE-2020-7212
+CVE: CVE-2024-1234
+CVSS/Severity: low
+Published Date: Published: 2020-03-06
+
+--------------------------------------------------
+
+URL: https://www.ibm.com/support/pages/node/7232470
+OEM Name: www.ibm
+Product Name: Security Bulletin: Vulnerability in Flask_Cors affects IBM Cloud Pak for Data System 1.0(CPDS 1.0)[CVE-2024-1681].
+CVE: CVE-2024-1681
+CVSS/Severity: low
+Published Date: 04 May 2025
+
+--------------------------------------------------
+
+URL: https://www.ibm.com/support/pages/node/7232478
+OEM Name: www.ibm
+Product Name: Security Bulletin: FreeType versions 2.13.0 and below may lead to remote code execution for IBM Storage Virtualize vSphere Remote Plug-in (CVE-2025-27363)
+CVE: CVE-2025-27363
+CVSS/Severity: low
+Published Date: 05 May 2025
+
+--------------------------------------------------
+
+URL: https://www.ibm.com/support/pages/node/7232438
+OEM Name: www.ibm
+Product Name: Security Bulletin: XML External Entity (XXE) injection vulnerability affects IBM Business Automation Workflow - CVE-2023-4218
+CVE: CVE-2023-4218
+CVSS/Severity: low
+Published Date: 03 May 2025
+
+--------------------------------------------------
+
+URL: https://www.cve.org/CVERecord?id=CVE-2024-6221
+OEM Name: www.cve
+Product Name: CVE Record: CVE-2024-6221
+CVE: CVE-2024-1234
+CVSS/Severity: low
+Published Date: Published: 2024-08-18
+
+--------------------------------------------------
+
+URL: https://www.cve.org/CVERecord?id=CVE-2020-25032
+OEM Name: www.cve
+Product Name: CVE Record: CVE-2020-25032
+CVE: CVE-2024-1234
+CVSS/Severity: low
+Published Date: Published: 2020-08-31
+
+--------------------------------------------------
+
+URL: https://www.cve.org/CVERecord?id=CVE-2024-3651
+OEM Name: www.cve
+Product Name: CVE Record: CVE-2024-3651
+CVE: CVE-2024-1234
+CVSS/Severity: CVSS
+1
+Published Date: Published: 2024-07-07
+
+--------------------------------------------------
+
+URL: https://www.cve.org/CVERecord?id=CVE-2020-26137
+OEM Name: www.cve
+Product Name: CVE Record: CVE-2020-26137
+CVE: CVE-2024-1234
+CVSS/Severity: low
+Published Date: Published: 2020-09-29
+
+--------------------------------------------------
+
+URL: https://www.cve.org/CVERecord?id=CVE-2024-38820
+OEM Name: www.cve
+Product Name: CVE Record: CVE-2024-38820
+CVE: CVE-2024-1234
+CVSS/Severity: low
+Published Date: Published: 2024-10-18
+
+--------------------------------------------------
+
+URL: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-erlang-otp-ssh-xyZZy
+OEM Name: sec.cloudapps.cisco
+Product Name: Multiple Cisco Products Unauthenticated Remote Code Execution in Erlang/OTP SSH Server: April 2025
+CVE: CVE-2025-32433
+CVSS/Severity: Critical
+Published Date: April 16, 2025
+
+--------------------------------------------------
+
+URL: https://www.ibm.com/support/pages/node/7232479
+OEM Name: www.ibm
+Product Name: Security Bulletin: IBM Maximo Application Suite - Monitor Component is vulnerable to spring-context-6.1.11.jar CVE-2024-38820
+CVE: CVE-2024-38820
+CVSS/Severity: low
+Published Date: 05 May 2025
+
+--------------------------------------------------
+
+URL: https://www.ibm.com/support/pages/node/7232469
+OEM Name: www.ibm
+Product Name: Security Bulletin: Vulnerability in Flask-Cors affects IBM Cloud Pak for Data System 1.0(CPDS 1.0)[CVE-2024-6221].
+CVE: CVE-2024-6221
+CVSS/Severity: low
+Published Date: 04 May 2025
+
+--------------------------------------------------
+

@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+  <h1 class="mb-4">🛡️ Vulnerable Links</h1>
+  <ul class="list-group">
+    {% for link in lines %}
+      <li class="list-group-item">{{ link }}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
